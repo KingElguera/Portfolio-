@@ -11,11 +11,10 @@
   var fallback = document.getElementById('photoFallback');
   var htmlSrc = photo && photo.getAttribute('src');
   var defaultPaths = [
+    'photo.png',
     'assets/photo.png',
-    'assets/photo.jpg',
-    'assets/Photo.jpg',
-    'assets/image.png',
-    'assets/image.jpg'
+    'photo.jpg',
+    'assets/photo.jpg'
   ];
   var paths = htmlSrc ? [htmlSrc] : defaultPaths;
 
